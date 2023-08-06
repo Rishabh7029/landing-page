@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .search {
+            float: right;
+            padding: 12px, 12px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar {
+            background-color: rgb(0, 0, 0);
+            width: 100vw;
+            height: 50px;
+        }
+
+        .navbar li {
+            margin: 10px;
+            float: left;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            font-size: larger;
+
+
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 4px;
+        }
+
+        .search {
+            margin-right: 10%;
+            margin-top: 10px;
+
+            list-style: none;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+
+        #search {
+            width: 660px;
+        }
+
+        .box-1 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .box-left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 60vw;
+            height: 80vh;
+
+
+
+        }
+
+        .box-right {
+            display: flex;
+            width: 40vw;
+            height: 80vh;
+
+
+
+        }
+        a{
+            text-decoration: none;
+             
+        }
+
+        .mini-boxes {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+        }
+
+        .box-a {
+            border: 5px solid black;
+            width: 30vw;
+            height: 30vh;
+            display: flex;
+            flex-direction: column;
+            margin: 2%;
+
+            align-items: center;
+            text-align: center;
+            border-radius: 30px;
+            background-color: rgb(5, 184, 67);
+        }
+
+        .box-b {
+            border: 5px solid black;
+            width: 30vw;
+            height: 30vh;
+            display: flex;
+            flex-direction: column;
+            margin: 2%;
+
+            align-items: center;
+            text-align: center;
+            border-radius: 30px;
+            background-color: blue;
+        }
+
+        .box-c {
+            border: 5px solid rgb(9, 9, 9);
+            width: 30vw;
+            height: 30vh;
+            display: flex;
+            flex-direction: column;
+            margin: 2%;
+
+            align-items: center;
+            text-align: center;
+            border-radius: 30px;
+            background-color: rgb(223, 36, 7);
+        }
+        .page-1{
+            display: flex;
+            flex-direction: row;
+            margin-top: 5%;
+
+        }
+
+        .leftofpage1 {
+            height: 40vh;
+            width: 20vw;
+            border: 3px solid black;
+            display: flex;
+            flex-direction: row;
+            margin: 2%;
+
+        }
+
+        .rightofpage1 {
+            display: flex;
+            flex-direction: row-reverse;
+            border: 3px solid black;
+            border-radius: 20px;
+            width: 30vw;
+            height: 40vh;
+            margin:1%;
+        }
+        a:hover{
+            Color: rgb(2, 239, 195);
+        }
+        .footer-left{
+            background-color: black;
+            color:grey;
+        }
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: white;
+            background-color: black;
+            font-weight: 500;
+        }
+        li:hover{
+            background-color: cadetblue;
+            border-radius: 5px;
+        }
+        .navbar{
+            background-color: rgb(34, 32, 32);
+        }
+        .box-a:hover{
+            cursor: pointer;
+            background-color: rgb(202, 37, 208);
+        }
+        .box-b:hover{
+            cursor: pointer;
+            background-color: rgb(202, 37, 208);
+        }
+        .box-c:hover{
+            cursor: pointer;
+            background-color: rgb(202, 37, 208);
+        }
+        #search{
+            width: 600px;
+            height: 30px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li> <a href="#box-left">Home</a></li>
+                <li> <a href="#box-left">About us</a></li>
+                <li> <a href="#Contacts-me">Contact us</a></li>
+                <li> <a href="#">Menu</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search this website">
+                </div>
+
+
+    </header>
+    <div class="box-1" id="box-left">
+        <div class="box-left" >
+            <h3> About Us </h3>
+            <h1> Best English Learning Center </h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, similique voluptatum quasi qui vel
+                laudantium exercitationem error repellendus aperiam officia perferendis deleniti suscipit nostrum
+                officiis aliquam eum minima voluptate asperiores.</p>
+            <button> <a href="#"> Enrol Now</a></button>
+        </div>
+        <div class="box-right">
+             
+                <div class="image-1"> <img src=" file:///C:/Users/Rishab/Desktop/project%20done/landingpage/monster_016%20(1).png"></div>
+        </div>
+    </div>
+    <div class="mini-boxes">
+        <div class="box-a">
+            <div class="logo"> </div>
+            <h1> Quality Teachers </h1>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, veniam?</p>
+        </div>
+        <div class="box-b">
+            <div class="logo"> </div>
+            <h1> Global Recogination </h1>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, veniam?</p>
+        </div>
+        <div class="box-c">
+            <div class="logo"> </div>
+            <h1> Online Courses </h1>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, veniam?</p>
+        </div>
+
+    </div>
+    <div class="page-1">
+        <div clss="leftofpage1">
+            <h1> Our Best Students</h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima assumenda quo distinctio. Repellat
+                eligendi
+                alias saepe quod. Non et voluptates recusandae magni, vero ipsam earum dolore porro odit voluptatum,
+                eligendi est minus perferendis atque cupiditate veniam assumenda quidem. Odio, ad.
+
+            </p>
+        </div>
+        <div class="rightofpage1">
+            <img src=" file:///C:/Users/Rishab/Desktop/project%20done/landingpage/monster_01.png">
+
+
+        </div>
+
+        <div class="rightofpage1">
+            <img src=" file:///C:/Users/Rishab/Desktop/project%20done/landingpage/monster_016%20(1).png">
+
+        </div>
+        <div class="rightofpage1">
+            <img src=" file:///C:/Users/Rishab/Desktop/project%20done/landingpage/monster_02.png">
+
+        </div>
+    </div>
+
+    <div class="form" id="Contacts-me">
+        <h1 id="h1">For Contacts</h1>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" style="width:  1300px; height: 30px;">
+            <input type="email" name="email" placeholder="Your Email" style="width: 1300px; height: 30px;">
+            <textarea name="message" placeholder="Your Message" dir="ltr"
+                style="width: 1300px; height: 173px;"></textarea>
+            <input type="submit" value="Send" style="width: 1307px; height: 30px;">
+        </form>
+    </div>
+    <footer>
+        <div class="footer-left">
+            <p>&copy;
+            <h2>ABC English Center</h2>
+            </p>
+            <p> All Copyrights Reserved </p>
+        </div>
+
+
+    </footer>
+
+
+</body>
+</html>
